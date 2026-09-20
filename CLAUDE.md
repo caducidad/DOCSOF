@@ -26,6 +26,7 @@ En este repo trabajan dos sesiones de Claude con roles distintos. Al empezar, el
   - `decisiones.md`: acuerdos específicos del entregable.
   - `borrador/`: una sección por fichero (`01-introduccion.md`, `02-solucion-propuesta.md`, …).
   - `buzon/`: mensajes entre generador y revisor.
+  - `material/` (si existe): material aportado por el usuario (capturas, transcripciones…), con un `README.md` que lo describe. Solo lo modifica el usuario.
 
 ## Entregables
 - `E3.2.4-validacion-reparacion-codigo`: E3.2.4 Validación de la herramienta software para la reparación automática de código fuente
