@@ -22,7 +22,7 @@ Resumen detallado de la reunión del **1 de julio de 2026** (32 min) en la que J
 - **Frontend** con la apariencia común de las aplicaciones del proyecto; acceso mediante el sistema de autenticación común de la plataforma DevAId (de ahí el logo en el login), con la marca Sof.ia dentro de la aplicación.
 - El backend **no se limita a llamar a los modelos**: aporta trabajo propio de **parseo y tratamiento de logs** para determinar qué endpoints del servicio corresponden a cada una de las cuatro clases (r_ping, r_cpu, r_users, r_orders) y calcular sus tasas de peticiones.
 - **Catálogo de instancias AWS**: el backend contiene un diccionario de instancias (nombre, vCPU, RAM, coste), heredado del trabajo de la UMA, con el que selecciona la instancia y genera el código.
-- **Despliegue**: la parte de modelos/backend está desplegada y funcionando en **Hugging Face**. (Pendiente de decidir si se menciona en el entregable.)
+- **Despliegue**: la parte de modelos/backend está desplegada y funcionando en **Hugging Face**. **No se menciona en el entregable** (ver `decisiones.md`, D-10).
 - **Reentrenamiento vía API**: se incluye para trabajo futuro; los modelos de IA deben reentrenarse periódicamente para ganar precisión, y el sistema ya está preparado para ello.
 - El desarrollador sugiere incluir un **diagrama de arquitectura** de alto nivel; la pantalla de la API no aporta valor visual (la generó una IA para no mostrar una página en blanco).
 

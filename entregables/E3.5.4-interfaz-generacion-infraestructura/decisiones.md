@@ -18,3 +18,4 @@ Acuerdos específicos de este entregable, confirmados por el usuario. Formato: `
   - I3.5.3: según la fórmula del indicador (sobre el total de infraestructuras generadas), señalando que no coincide con la redacción de O3.5.3 ("soluciones de software de la empresa").
 - **D-08 (2026-09-20): Capa de control/auditoría.** Se presenta como evidencia del resultado esperado "reducción de errores y problemas en el despliegue". Se ilustra con el caso de la demo (r_cpu = 50 fuera de rango, recortado a 25,2; predicción de CPU de 106,69 % corregida a 100 %). No se mezcla con las cifras del E3.5.3.
 - **D-09 (2026-09-20): Material gráfico.** Capturas en el orden del flujo (login → subida de logs → predicción → resultados → avisos), pantalla de la API y diagrama de arquitectura con los puntos de extensión.
+- **D-10 (2026-09-20): Despliegue en Hugging Face.** No se menciona en el entregable.
