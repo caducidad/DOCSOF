@@ -52,7 +52,6 @@ Resumen detallado de la reunión del **21 de agosto de 2026** (1 h) en la que Je
 - Estructura: un job `configuration` (checkout, caché, instalación de dependencias, detección de proyectos afectados) y una matriz `project-health` con un job por servicio (tests unitarios → "Check if build is required" → "Build project" → fin).
 - Resultado clave (`capturas/12`, servicio `projects-service`): tras los tests (con su resumen de cobertura), el paso de predicción devolvió `prediction: 1`, `status: BUILD_OPTIONAL`, `failure_risk: 0.24762`, y **el paso "Build project" se omitió** (skip); el pipeline terminó correctamente.
 - Algunos jobs de la matriz fallaron en sus tests unitarios, lo que es ajeno a la aplicación.
-- **Pendiente**: el desarrollador grabará un segundo vídeo con la ejecución completa del pipeline, que se añadirá como anexo o capítulo de resultados.
 
 ## 5. Enfoque del documento (propuesta del desarrollador)
 - Incluir una o dos secciones de resultados explicando que el código se inyecta en un pipeline preexistente del repositorio del usuario y que ese código invoca el algoritmo de la UMA para decidir si se omite el build.
