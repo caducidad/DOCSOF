@@ -64,6 +64,7 @@ En este repo trabajan dos sesiones de Claude con roles distintos. Al empezar, el
 - Discrepancias: una sola ronda de discusión. Si no hay acuerdo, se escala al usuario con ambas posturas resumidas.
 
 ## Convenciones
+- **Respuestas breves (ambos roles).** Al usuario: qué has hecho, qué queda pendiente y qué necesitas de él, sin preámbulos ni repeticiones. Los mensajes del buzón, igual de concisos. La brevedad no se aplica al contenido de los entregables, que tendrá la extensión que requiera.
 - Idioma: español. Formato de trabajo: Markdown. La conversión a Word con la plantilla se hará al final.
 - No inventes datos: resultados, métricas, capturas o detalles técnicos que no estén en las referencias o no los haya aportado el usuario se marcan como `[PENDIENTE: descripción de lo que falta]`.
 - Commits pequeños con prefijo de rol: `[generador] E2.3.1 propuesta de índice`, `[revisor] E2.3.1 observaciones índice`. Haz `git push` al terminar cada tarea.
