@@ -4,7 +4,8 @@ Resumen detallado de la reunión del **21 de agosto de 2026** (1 h) en la que Je
 
 > Notas para el generador:
 > - Donde este resumen dice "según el desarrollador", es una afirmación suya en la demo, no un dato verificado.
-> - El enfoque del algoritmo en que se apoya la aplicación difiere de lo que describe la memoria para la línea L3.4 (generación automática de pipelines a partir de metamodelos). Cómo se trata esa desviación lo decide el usuario (`decisiones.md`).
+> - La línea L3.4 tomó un camino distinto al que describía la memoria (generación automática de pipelines a partir de metamodelos). Ver `anotacion-enfoque.md` y, cuando existan, las decisiones del entregable.
+> - Hugging Face: no se menciona en el texto (`decisiones.md` raíz, D-06), aunque aparezca en capturas.
 
 ## 1. Qué hace la aplicación
 - Pantalla "**Reparador de Pipelines de CI/CD**". Según el desarrollador, "reparar" no es la palabra exacta: la aplicación **inyecta una serie de acciones en un pipeline de CI/CD ya existente** para que pueda **omitir la fase de build cuando no es necesaria**.

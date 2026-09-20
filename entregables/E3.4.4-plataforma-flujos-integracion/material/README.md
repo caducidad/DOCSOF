@@ -23,3 +23,7 @@ Material aportado por el usuario. **No se modifica.** Las capturas se tomaron el
 | `capturas/13-api-backend-prediccion.png` | 12:54:28 | Portada de "CI Prediction API": endpoints `/health`, `/train` (entrenamiento completo en segundo plano), `/predict` (predicción del último build); cabecera `x-api-key` obligatoria; parámetros `repository_url` y `branch`. |
 
 Resumen detallado de la demo: `resumen-demo.md`.
+
+Anotación del usuario sobre el enfoque de la línea: `anotacion-enfoque.md`.
+
+Nota: algunas capturas muestran Hugging Face; no se menciona en el texto (`decisiones.md` raíz, D-06).
